@@ -15,5 +15,64 @@
     font-family: Arial, Helvetica, sans-serif;
     padding: 0px;
     margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+
+    background-color: #3A20E6;
+    height: 100vh;
+    width: 100vw;
 
 }
+
+main {
+
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+
+}
+
+section#login {
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    background-color: white;
+    width: 300px;
+    height: 500px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.363);
+    overflow: hidden;
+
+    transition: width 0.3s, height 0.3s;
+    transition-timing-function: ease;
+
+}
+
+section#login div#imagem {
+
+    display: block;
+    background: #3A20E6 url(../imagens/pexels-brett-sayles-1059608.jpg);
+    height: 200px;
+    background-size: cover;
+
+}
+
+section#login div#formulario {
+
+    display: block;
+    padding: 10px;
+
+}
+
+div#formulario h1 {
+
+    text-align: center;
+    margin-bottom: 10px;
+
+}
+
